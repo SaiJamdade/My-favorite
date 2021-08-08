@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+#image{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:linear-gradient(orange 0%,rgb(245, 20, 189) 100%);
+    display: table;
+    z-index: 9;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    max-width: 450px;
+    margin: 25px auto;
+}
+#profile{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+}
+.line{
+    height: 6px;
+    width:80px;
+    background-color: crimson;
+    margin: 8px auto;
+}
+.menu{
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    background-color: cadetblue;
+}
+.link{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.link:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color:crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+#contact{
+    background-color: hotpink;
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+     display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color:indianred;
+}
